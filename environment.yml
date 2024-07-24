@@ -1,0 +1,6 @@
+name: telemetry-env
+dependencies:
+  - python=3.x
+  - opentelemetry-api
+  - opentelemetry-sdk
+  - opentelemetry-exporter-otlp

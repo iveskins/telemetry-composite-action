@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "telemetry-composite-action"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.x"
+opentelemetry-api = "*"
+opentelemetry-sdk = "*"
+opentelemetry-exporter-otlp = "*"
+
+[tool.poetry.dev-dependencies]

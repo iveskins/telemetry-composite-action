@@ -1,0 +1,15 @@
+name: "Telemetry Export Action"
+description: "Export telemetry data to a specified endpoint"
+inputs:
+  otlp-endpoint:
+    description: "The destination endpoint to export OpenTelemetry traces to"
+    required: true
+  otlp-headers:
+    description: "Network headers for the destination endpoint"
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  steps:
+    - name: Export Telemetry Data
+      run: python /main.py

@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "package": [
+        {
+            "name": "opentelemetry-api",
+            "version": "*"
+        },
+        {
+            "name": "opentelemetry-sdk",
+            "version": "*"
+        },
+        {
+            "name": "opentelemetry-exporter-otlp",
+            "version": "*"
+        }
+    ],
+    "metadata": {
+        "python-versions": ">=3.x"
+    }
+}
